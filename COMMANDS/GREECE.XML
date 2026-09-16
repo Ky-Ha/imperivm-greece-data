@@ -98,7 +98,7 @@
 	<src obj="HBarracks"/>
 </cmd>
 
-<cmd name="trainHHero1Hypaspista" priority="7"
+<cmd name="trainHHero1Hypaspista" priority="1"
 	button="actions/hire heroH.bmp"
 	queueicon="gameres/icons/HHero1.bmp"
 	groupverifier="data/subai/verify_hero_train.vs"
@@ -114,10 +114,10 @@
 	method="trainex"
 	param="1, 1, HHero1Hypaspista, HHero1Hypaspista, ,"
 	sclass="HHero1Hypaspista">
-	<src obj="HBarracks"/>
+	<src obj="HGymnasium"/>
 </cmd>
 
-<cmd name="trainHHero2Hypaspista" priority="7"
+<cmd name="trainHHero2Hypaspista" priority="2"
 	button="actions/hire heroH.bmp"
 	queueicon="gameres/icons/HHERO2.bmp"
 	groupverifier="data/subai/verify_hero_train.vs"
@@ -133,10 +133,10 @@
 	method="trainex"
 	param="1, 1, HHero2Hypaspista, HHero2Hypaspista, ,"
 	sclass="HHero2Hypaspista">
-	<src obj="HBarracks"/>
+	<src obj="HGymnasium"/>
 </cmd>
 
-<cmd name="trainHHero3Hypaspista" priority="7"
+<cmd name="trainHHero3Hypaspista" priority="3"
 	button="actions/hire heroH.bmp"
 	queueicon="gameres/icons/HHERO3.bmp"
 	groupverifier="data/subai/verify_hero_train.vs"
@@ -152,7 +152,7 @@
 	method="trainex"
 	param="1, 1, HHero3Hypaspista, HHero3Hypaspista, ,"
 	sclass="HHero3Hypaspista">
-	<src obj="HBarracks"/>
+	<src obj="HGymnasium"/>
 </cmd>
 
 <!-- Se vuoi rendere i Carri illimitati cambiare in groupverifier="data/subai/barrack_train_verify.vs" 
@@ -282,7 +282,7 @@
 
 <!-- GREEK ARENA -->
 
-<cmd name="hireheroH" priority="1"
+<!-- <cmd name="hireheroH" priority="1"
 	button="actions/hire heroH.bmp"
 	queueicon="gameres/icons/hire heroH.bmp"
 	groupverifier="data/subai/verify_cmdcost_building.vs"
@@ -297,9 +297,9 @@
 	help="/contents/units/GHero"
 	rollover="Hire hero">
 	<src obj="HGymnasium"/>
-</cmd>
+</cmd> -->
 
-<cmd name="Olympic Games" priority="2"
+<cmd name="Olympic Games" priority="4"
 	button="Upgrades/Olympic Games.bmp"
 	key="g"
 	queueicon="gameres/icons/upgrades/Olympic Games.bmp"
@@ -315,7 +315,7 @@
 	<src obj="HGymnasium"/>
 </cmd>
 
-<cmd name="Spartan Training" priority="3"
+<cmd name="Spartan Training" priority="5"
 	button="Research/Spartan Training.bmp"
 	queueicon="gameres/icons/upgrades/Spartan Training.bmp"
 	key="t"
@@ -331,7 +331,7 @@
 	<src obj="HGymnasium"/>
 </cmd>
 
-<cmd name="Forge Elite Equipment" priority="4"
+<cmd name="Forge Elite Equipment" priority="6"
 	queueicon="gameres/icons/upgrades/Forge Elite Equipment.bmp"
 	key="f"
 	button="Upgrades/Forge Elite Equipment.bmp"
@@ -347,7 +347,7 @@
 	<src obj="HGymnasium"/>
 </cmd>
 
-<cmd name="trainHMyrmidon" priority="5"
+<cmd name="trainHMyrmidon" priority="7"
 	button="actions/Train HMyrmidon.bmp"
 	queueicon="gameres/icons/HMyrmidon.bmp"
 	transpicon="1"
@@ -366,7 +366,7 @@
 	<src obj="HGymnasium"/>
 </cmd>
 
-<cmd name="Democracy" priority="6"
+<cmd name="Democracy" priority="8"
 	button="Upgrades/Democracy.bmp"
 	queueicon="gameres/icons/upgrades/Democracy.bmp"
 	key="d"
@@ -382,7 +382,7 @@
 	<src obj="HGymnasium"/>
 </cmd>
 
-<cmd name="Oligarchy" priority="7"
+<cmd name="Oligarchy" priority="9"
 	button="Upgrades/Oligarchy.bmp"
 	queueicon="gameres/icons/upgrades/Oligarchy.bmp"
 	key="o"
@@ -414,7 +414,7 @@
 	<src obj="HGymnasium"/>
 </cmd> -->
 
-<cmd name="Charm of Athena" priority="8"
+<cmd name="Charm of Athena" priority="10"
 	button="Research/charm of athena.bmp"
 	key="o"
 	queueicon="gameres/icons/upgrades/charm of athena.bmp"
@@ -430,7 +430,7 @@
 	<src obj="HGymnasium"/>
 </cmd>
 
-<cmd name="Charm of Aegle" priority="9"
+<cmd name="Charm of Aegle" priority="11"
 	button="Research/charm of aegle.bmp"
 	key="d"
 	queueicon="gameres/icons/upgrades/charm of aegle.bmp"
