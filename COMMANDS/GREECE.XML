@@ -44,7 +44,8 @@
 <cmd name="trainHHoplite" priority="5"
 	button="actions/train HHoplite.bmp"
 	queueicon="gameres/icons/HHoplite.bmp"
-	groupverifier="data/subai/barrack_train_verify.vs"
+	groupverifier="data/subai/verify_trainex.vs"
+	onaddremovescript="data/subai/trainex_onaddremove.vs"
 	transpicon="1"
 	traincommand="yes"
 	key="o"
@@ -54,8 +55,8 @@
 	costpop = "1"
 	execdelay = "11000"
 	rollover="Equip Hoplite"
-	method="train"
-	param="HHoplite, Greek Spears"
+	method="trainex"
+	param="1, 72, HHoplite, HHoplite, Greek Spears, blacksmith"
 	sclass="HHoplite">
 	<src obj="HBarracks"/>
 </cmd>
@@ -63,7 +64,8 @@
 <cmd name="trainHCataphract" priority="6"
 	button="actions/Train HCataphract.bmp"
 	queueicon="gameres/icons/HCataphract.bmp"
-	groupverifier="data/subai/barrack_train_verify.vs"
+	groupverifier="data/subai/verify_trainex.vs"
+	onaddremovescript="data/subai/trainex_onaddremove.vs"
 	transpicon="1"
 	traincommand="yes"
 	key="e"
@@ -73,8 +75,8 @@
 	costpop = "1"
 	execdelay = "12000"
 	rollover="Equip Hetairos"
-	method="train"
-	param="HCataphract, Greek Horse Armor"
+	method="trainex"
+	param="1, 100, HCataphract, HCataphract, HCataphract, blacksmith"
 	sclass="HCataphract">
 	<src obj="HBarracks"/>
 </cmd>
@@ -174,7 +176,7 @@
 	execdelay = "20000"
 	rollover="Equip Chariot"
 	method="trainex"
-	param="1, 12,HChariot,HChariot, Greek Chariot Wheels, blacksmith"
+	param="1, 12, HChariot, HChariot, Greek Chariot Wheels, blacksmith"
 	sclass="HChariot">
 	<src obj="HBarracks"/>
 </cmd>
