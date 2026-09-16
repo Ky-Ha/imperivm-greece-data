@@ -1,6 +1,14 @@
 <class id="HHero1Hypaspista" cpp_class="CVXHero" parent="Hero" entity="Units/HHero1/HHero1.ent.xml">
+	<properties max_army="100"/>
 	<properties icon="gameres/icons/Hhero1.bmp"/>
 	<properties display_name="Hector" display_name_plural="Hectors"/>
 	<properties help="contents/units/HHypaspista"/>
+	
+	<properties maxhealth="1500"/>
+	<properties damage="150" armor_slash="30" armor_pierce="40"/>
+	<properties speed="120"/>
+	<properties unit_specials="Trample, Penetration, Active, Life steal, Deathblow"/>
+	<properties HeroSkills="Quick March, Team attack, Team defense, Concealment, Euphoria"/>
+
 	<properties edittree_pos="Units/Greece/Hero 1"/>
 </class>

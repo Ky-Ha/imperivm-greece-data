@@ -1,6 +1,14 @@
 <class id="HHero3Hypaspista" cpp_class="CVXHero" parent="HHypaspista" entity="Units/HHero3/HHero3.ent.xml">
+	<properties max_army="100"/>
 	<properties icon="gameres/icons/HHERO3.bmp"/>
 	<properties display_name="Leonte" display_name_plural="Leontes"/>
 	<properties help="contents/units/HHypaspista"/>
+
+	<properties maxhealth="800"/>
+	<properties damage="40" armor_slash="40" armor_pierce="40"/>
+	<properties speed="90"/>
+	<properties unit_specials="Triple strike, Triumph, Active, Life steal"/>
+	<properties HeroSkills="Team attack, Team defense, Assault"/>
+
 	<properties edittree_pos="Units/Greece/Hero 3"/>
 </class>

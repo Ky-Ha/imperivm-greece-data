@@ -144,6 +144,12 @@ while(1)
 			newunit.SetCommand("enter", .settlement.GetCentralBuilding);
 			newunit.AddToGroup("Player" + .player + groupname);
 		}
+		if (class == "HMyrmidon_Javelin")
+			level = 30;
+		if (class == "HHero1Hypaspista" || class == "HHero3Hypaspista")
+			level = 50;
+		if (class == "HHero2Hypaspista")
+			level = 70;
 		newunit.SetLevel(level);
 		// Add item
 		if (!newunit.IsHeirOf("BaseMage"))
