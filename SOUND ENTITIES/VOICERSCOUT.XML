@@ -1,0 +1,14 @@
+<entity description="RScout Voice" priority="UnitOrder" type="UnitOrder">
+   <files>
+      <sound file="CurrentLang/voices/RScout/Let's ride.wav" frequency="10"/>
+      <sound file="CurrentLang/voices/RScout/Riding on horseback.wav" frequency="10"/>
+      <sound file="CurrentLang/voices/RScout/Scouting the area.wav" frequency="10"/>
+      <sound file="CurrentLang/voices/RScout/Scouts Here.wav" frequency="10"/>
+      <sound file="CurrentLang/voices/RScout/Speed is of essence.wav" frequency="10"/>
+	  <sound file="CurrentLang/voices/RScout/6.wav" frequency="10"/>
+      <sound file="CurrentLang/voices/RScout/7.wav" frequency="10"/>
+      <sound file="CurrentLang/voices/RScout/8.wav" frequency="10"/>
+      <sound file="CurrentLang/voices/RScout/9.wav" frequency="10"/>
+      <sound file="CurrentLang/voices/RScout/10.wav" frequency="10"/>
+   </files>
+</entity>

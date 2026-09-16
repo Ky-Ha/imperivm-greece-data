@@ -1,0 +1,14 @@
+<entity description="RPriest Voice" priority="UnitOrder" type="UnitOrder">
+   <files>
+      <sound file="CurrentLang/voices/RPriest/Fear pluto.wav" frequency="10"/>
+      <sound file="CurrentLang/voices/RPriest/I'm too old for this.wav" frequency="10"/>
+      <sound file="CurrentLang/voices/RPriest/Starting the ritual.wav" frequency="10"/>
+      <sound file="CurrentLang/voices/RPriest/The gods be with you.wav" frequency="10"/>
+      <sound file="CurrentLang/voices/RPriest/Worship Jupiter.wav" frequency="10"/>
+	  <sound file="CurrentLang/voices/RPriest/6.wav" frequency="10"/>
+      <sound file="CurrentLang/voices/RPriest/7.wav" frequency="10"/>
+      <sound file="CurrentLang/voices/RPriest/8.wav" frequency="10"/>
+      <sound file="CurrentLang/voices/RPriest/9.wav" frequency="10"/>
+      <sound file="CurrentLang/voices/RPriest/10.wav" frequency="10"/>
+   </files>
+</entity>

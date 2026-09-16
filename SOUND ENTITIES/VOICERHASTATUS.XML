@@ -1,0 +1,14 @@
+<entity description="RHastatus Voice" priority="UnitOrder" type="UnitOrder">
+   <files>
+      <sound file="CurrentLang/voices/RHastatus/Following your orders.wav" frequency="10"/>
+      <sound file="CurrentLang/voices/RHastatus/Look out for danger.wav" frequency="10"/>
+      <sound file="CurrentLang/voices/RHastatus/Ready as always.wav" frequency="10"/>
+      <sound file="CurrentLang/voices/RHastatus/Shields in front.wav" frequency="10"/>
+      <sound file="CurrentLang/voices/RHastatus/Swords ready.wav" frequency="10"/>
+	  <sound file="CurrentLang/voices/RHastatus/6.wav" frequency="10"/>
+      <sound file="CurrentLang/voices/RHastatus/7.wav" frequency="10"/>
+      <sound file="CurrentLang/voices/RHastatus/8.wav" frequency="10"/>
+      <sound file="CurrentLang/voices/RHastatus/9.wav" frequency="10"/>
+      <sound file="CurrentLang/voices/RHastatus/10.wav" frequency="10"/>
+   </files>
+</entity>

@@ -1,0 +1,14 @@
+<entity description="RGladiator Voice" priority="UnitOrder" type="UnitOrder">
+   <files>
+      <sound file="CurrentLang/voices/RGladiator/There's no weapon like mine.wav" frequency="10"/>
+      <sound file="CurrentLang/voices/RGladiator/We fight to the death.wav" frequency="10"/>
+      <sound file="CurrentLang/voices/RGladiator/We live to win.wav" frequency="10"/>
+      <sound file="CurrentLang/voices/RGladiator/We mortals salute you.wav" frequency="10"/>
+      <sound file="CurrentLang/voices/RGladiator/We win to live.wav" frequency="10"/>
+	  <sound file="CurrentLang/voices/RGladiator/6.wav" frequency="10"/>
+      <sound file="CurrentLang/voices/RGladiator/7.wav" frequency="10"/>
+      <sound file="CurrentLang/voices/RGladiator/8.wav" frequency="10"/>
+      <sound file="CurrentLang/voices/RGladiator/9.wav" frequency="10"/>
+      <sound file="CurrentLang/voices/RGladiator/10.wav" frequency="10"/>
+   </files>
+</entity>

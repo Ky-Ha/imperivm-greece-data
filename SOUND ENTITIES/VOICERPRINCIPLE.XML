@@ -1,0 +1,14 @@
+<entity description="RPrinciple Voice" priority="UnitOrder" type="UnitOrder">
+   <files>
+      <sound file="CurrentLang/voices/RPrinciple/Be ready for anything.wav" frequency="10"/>
+      <sound file="CurrentLang/voices/RPrinciple/Move quietly.wav" frequency="10"/>
+      <sound file="CurrentLang/voices/RPrinciple/We fight to the end.wav" frequency="10"/>
+      <sound file="CurrentLang/voices/RPrinciple/We'll win again.wav" frequency="10"/>
+      <sound file="CurrentLang/voices/RPrinciple/We've won many battles.wav" frequency="10"/>
+	  <sound file="CurrentLang/voices/RPrinciple/6.wav" frequency="10"/>
+      <sound file="CurrentLang/voices/RPrinciple/7.wav" frequency="10"/>
+      <sound file="CurrentLang/voices/RPrinciple/8.wav" frequency="10"/>
+      <sound file="CurrentLang/voices/RPrinciple/9.wav" frequency="10"/>
+      <sound file="CurrentLang/voices/RPrinciple/10.wav" frequency="10"/>
+   </files>
+</entity>

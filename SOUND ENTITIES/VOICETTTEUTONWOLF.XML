@@ -1,0 +1,9 @@
+<entity description="TTeutonWolf Voice" priority="UnitOrder" type="UnitOrder">
+	<files>
+		<sound file="CurrentLang/voices/TTeutonWolf/1.wav" frequency="20"/>
+		<sound file="CurrentLang/voices/TTeutonWolf/2.wav" frequency="20"/>
+		<sound file="CurrentLang/voices/TTeutonWolf/3.wav" frequency="20"/>
+		<sound file="CurrentLang/voices/TTeutonWolf/4.wav" frequency="20"/>
+		<sound file="CurrentLang/voices/TTeutonWolf/5.wav" frequency="20"/>
+	</files>
+</entity>

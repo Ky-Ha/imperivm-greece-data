@@ -1,0 +1,16 @@
+<class id="HHypaspista" cpp_class="CVXUnit" parent="Melee" entity="Units/HHypaspista/HHypaspista.ent.xml">
+
+	<properties race="ImperialRome"/>
+	<properties maxhealth="400"/>
+	<properties damage="20" armor_slash="20" armor_pierce="20"/>
+	<properties speed="80"/>
+	<properties unit_specials="Triple strike, Triumph, Keen sight, Sneak"/>
+	<properties formation_priority="1200"/>
+
+	<properties icon="gameres/icons/HHypaspista.bmp"/>
+	<properties display_name="Hypaspista" display_name_plural="Hypaspistai"/>
+	<properties help="contents/units/HHypaspista"/>
+	<properties edittree_pos="Units/Greece/Hypaspista"/>
+	<sounds command="data/sound entities/VoiceHHypaspista.xml"/>
+
+</class>

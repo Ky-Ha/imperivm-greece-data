@@ -1,0 +1,89 @@
+<commands>
+
+<!-- TTENT -->
+
+<cmd name="StartTTeutonRiderTrain" priority="3"
+	method="teutonProduction"
+	button="actions/train TTeutonRider.bmp"
+    groupverifier="data/subai/start_trider_verify.vs"
+	transpicon="1"
+	cursor=""
+	key="r"
+	immediate="yes"
+	rollover="Train Teuton Riders"
+	description="Start automatically Teuton Riders Production"
+	param="TRider">
+	<src obj="TTent"/>
+</cmd>
+
+<cmd name="StopTTeutonRiderTrain" priority="3"
+	method="teutonProduction"
+	button="actions/Stop TTeutonRider.bmp"
+    groupverifier="data/subai/stop_trider_verify.vs"
+	transpicon="1"
+	cursor=""
+	key ="s"
+	immediate="yes"
+	rollover="Stop Train Teuton Riders"
+	description="Stop automatically Teuton Riders Production"
+	param="Nothing">
+	<src obj="TTent"/>
+</cmd>
+
+<cmd name="StartTTeutonArcherTrain" priority="4"
+	method="teutonProduction"
+	button="actions/train TTeutonArcher.bmp"
+    groupverifier="data/subai/start_tarcher_verify.vs"
+	transpicon="1"
+	cursor=""
+	key="a"
+	immediate="yes"
+	rollover="Train Teuton Archers"
+	description="Start automatically Teuton Archers Production"
+	param="TArcher">
+	<src obj="TTent"/>
+</cmd>
+
+<cmd name="StopTTeutonArcherTrain" priority="4"
+	method="teutonProduction"
+	button="actions/Stop TTeutonArcher.bmp"
+    groupverifier="data/subai/stop_tarcher_verify.vs"
+	transpicon="1"
+	cursor=""
+	key ="s"
+	immediate="yes"
+	rollover="Stop Train Teuton Archers"
+	description="Stop automatically Teuton Archers Production"
+	param="Nothing">
+	<src obj="TTent"/>
+</cmd>
+
+<cmd name="StartTTeutonWolfTrain" priority="5"
+	method="teutonProduction"
+	button="actions/train TTeutonWolf.bmp"
+    groupverifier="data/subai/start_twolf_verify.vs"
+	transpicon="1"
+	cursor=""
+	key="w"
+	immediate="yes"
+	rollover="Train Teuton Wolves"
+	description="Start automatically Teuton Wolves Production"
+	param="TWolf">
+	<src obj="TTent"/>
+</cmd>
+
+<cmd name="StopTTeutonWolfTrain" priority="5"
+	method="teutonProduction"
+	button="actions/STOP TTEUTONWOLF.BMP"
+    groupverifier="data/subai/stop_twolf_verify.vs"
+	transpicon="1"
+	cursor=""
+	key ="s"
+	immediate="yes"
+	rollover="Stop Train Teuton Wolves"
+	description="Stop automatically Teuton Wolves Production"
+	param="Nothing">
+	<src obj="TTent"/>
+</cmd>
+
+</commands>

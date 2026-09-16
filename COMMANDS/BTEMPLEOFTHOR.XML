@@ -1,0 +1,119 @@
+<commands>
+
+<!-- TEMPLE COMMANDS -->
+<!-- NOTE : train command must have names like this:"trainClassName" -->
+<!--        where ClassName is the class of the unit to be trained -->
+
+<cmd name="repair Temple of Thor" priority="1"
+	method="repair"
+	button="actions/repair.bmp"
+	key="r"
+	queueicon="gameres/icons/upgrades/repair.bmp"
+	groupverifier="data/subai/verify_cmdcost_building.vs"
+	rollover="Repair"
+	costgold="500"
+	costfood="0"
+	execdelay="60000">
+	<src obj="BTempleOfThor"/>
+</cmd>
+
+<cmd name="trainBDruid" priority="1"
+	button="actions/train BDruid.bmp"
+	queueicon="gameres/icons/BDruid.bmp"
+	groupverifier="data/subai/verify_cmdcost_building.vs"
+	transpicon="1"
+	traincommand="yes"
+	key="d"
+	help="/contents/units/BDruid"
+	costgold = "160"
+	costfood = "0"
+	costpop = "0"
+	execdelay = "20000"
+	rollover="Call Druid"
+	method="train"
+	param="BDruid"
+	sclass="BDruid">
+	<src obj="BTempleOfThor"/>
+</cmd>
+
+<cmd name="Britain chamber" priority="2"
+	button="research/ritual chamber.bmp"
+	queueicon="gameres/icons/upgrades/ritual chamber.bmp"
+	researchcommand="yes"
+	groupverifier="data/subai/verify_research.vs"
+	key="r"
+	costgold = "1000"
+	costfood = "0"
+	execdelay = "40000"
+	rollover="Britain Chamber"
+	description="Allows druids to gain experience by learning from warriors"
+	method="research"
+	param="NamePlr, Britain Chamber, default,NameSet, Britain Chamber, default">
+	<src obj="BTempleOfThor"/>
+</cmd>
+<cmd name="Britain Ghoul Summoning" priority="6"
+	queueicon="gameres/icons/upgrades/Ghost.bmp"
+	button="research/Ghost.bmp"
+	key="g"
+	help="/contents/units/Ghost"
+	researchcommand="yes"
+	groupverifier="data/subai/verify_research.vs"
+	costgold = "1600"
+	costfood = "0"
+	execdelay = "30000"
+	rollover="Ghoul summoning"
+	description="Allows druids to sacrifice themselves and summon a Ghoul, which drains the life of all enemies nearby for about 10 seconds"
+	method="research"
+	param="ReqSet, Britain Chamber, default, NamePlr, Ghoul Summoning, default">
+	<src obj="BTempleOfThor"/>
+</cmd>
+
+<cmd name="Wolf Summoning" priority="8"
+	queueicon="gameres/icons/upgrades/summon wolf.bmp"
+	button="actions/summon wolf.bmp"
+	key="w"
+	researchcommand="yes"
+	groupverifier="data/subai/verify_research.vs"
+	costgold = "400"
+	costfood = "0"
+	execdelay = "30000"
+	rollover="Wolf summoning"
+	description="Allows druids to sacrifice themselves and summon a wolf, which remains under your control for about 3 minutes"
+	method="research"
+	param="ReqSet, Britain Chamber, default, NamePlr, Wolf Summoning, default">
+	<src obj="BTempleOfThor"/>
+</cmd>
+
+<cmd name="Britain Mass Heal" priority="9"
+	queueicon="gameres/icons/upgrades/Mass Healing.bmp"
+	button="research/Mass Healing.bmp"
+	key="m"
+	researchcommand="yes"
+	groupverifier="data/subai/verify_research.vs"
+	costgold = "1500"
+	costfood = "0"
+	execdelay = "30000"
+	rollover="Mass heal"
+	description="Allows druids to sacrifices themselves to heal nearby allies"
+	method="research"
+	param="ReqSet, Britain Chamber, default, NamePlr, Mass Heal, default">
+	<src obj="BTempleOfThor"/>
+</cmd>
+
+<cmd name="Mass Concealment" priority="10"
+	queueicon="gameres/icons/upgrades/MassConcealment.bmp"
+	button="research/mass_concealment.bmp"
+	key="c"
+	researchcommand="yes"
+	groupverifier="data/subai/verify_research.vs"
+	costgold = "2000"
+	costfood = "0"
+	execdelay = "30000"
+	rollover="Mass concealment"
+	description="Allows druids to automatically hide your nearby units"
+	method="research"
+	param="ReqSet, Britain Chamber, default, NamePlr, Mass Concealment, default">
+	<src obj="BTempleOfThor"/>
+</cmd>
+
+</commands>

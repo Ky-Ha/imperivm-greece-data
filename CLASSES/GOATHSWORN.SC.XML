@@ -1,0 +1,17 @@
+<class id="GOathsworn" cpp_class="CVXUnit" parent="Horse" entity="Units/Keltill/Keltill.ent.xml">
+
+	<properties race="Gaul"/>
+	<properties maxhealth="680"/>
+	<properties damage="26" armor_slash="12" armor_pierce="12"/>
+	<properties speed="160"/>
+	<properties unit_specials="Charge, Life steal"/>
+	<properties healthbar_type="3"/>
+
+	<properties icon="gameres/icons/GOathsworn.bmp"/>
+	<properties display_name="Oathsworn" display_name_plural="Oathsworns"/>
+	<properties help="contents/units/GOathsworn"/>
+	<properties edittree_pos="Units/Gaul/Oathsworn"/>
+	<sounds command="data/sound entities/VoiceGHorseman.xml"/>
+
+	<method sig="ondie" vs="data/subai/GOathsworn_ondie.vs"/>
+</class>

@@ -1,0 +1,26 @@
+<class id="HOutpost" cpp_class="CVXOutpost" parent="Outpost"
+	entity="Buildings/HOutpost/HOutpost.ent.XML"
+>
+	<properties race="Carthage"/>
+	<properties maxhealth="10000"/>
+	<properties icon="gameres/icons/houtpost.bmp"/>
+	<properties display_name="Garrison Post"/>
+	<properties radius="345" selection_radius="350"/>
+	<properties edittree_pos="Structures/Outposts/Garrison Post"/>
+	<properties help="/contents/buildings/ITrainingCamp"/>
+	<properties description="Converts villagers inside the outpost into capable Hoplites"/>
+	<properties
+		range = "1000"
+		settlement_food="2000"
+		settlement_gold="0"
+	    defender_cls_1  = "HHoplite"	
+	    defenders_max_1 = "24"
+	    defenders_out_1 = "12"
+	    start_level_1   = "1"
+	    end_level_1     = "1"    
+	/>
+
+	<behavior script="data/subai/houtpost_behavior.vs"/>
+
+<!--	<method sig="routpost_interest" vs="data/subai/routpost_interest.vs"/> -->
+</class>

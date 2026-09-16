@@ -1,0 +1,27 @@
+<class id="CHorseman" cpp_class="CVXUnit" parent="ShortRanged" entity="Units/CHorseman/CHorseman.ent.xml">
+
+	<properties race="Carthage"/>
+	<properties maxhealth="600"/>
+	<properties damage="30" armor_slash="5" armor_pierce="5"/>
+	<properties speed="185"/>
+	<properties unit_specials="Cripple, Charge, Keen sight"/>
+	<properties healthbar_type="3"/>
+	<properties max_food="40"/>
+	
+	<properties formation_radius="35"/>
+	<properties radius="30" selection_radius="32"/>
+	
+	<properties projectile_class="Javelin"/>
+	<properties building_projectile_class="Javelin"/>
+	
+	<properties icon="gameres/icons/CHorseman.bmp"/>
+	<properties display_name="Numidian Horseman" display_name_plural="Numidian Horsemen"/>
+	<properties help="contents/units/TArcher"/>
+	<properties edittree_pos="Units/Carthage/Numidian Horseman"/>
+	<method sig="ondie" vs="data/subai/cmercenary_ondie.vs"/>
+	<sounds command="data/sound entities/VoiceCHorseman.xml"/>
+		<!--given ONLY by the behaviour script-->
+	<method sig="enter_tent" vs="data/subai/teuton_enter_tent.vs"/>
+
+
+</class>

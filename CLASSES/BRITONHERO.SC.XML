@@ -1,0 +1,25 @@
+<class id="BritonHero" cpp_class="CVXHero" parent="Hero" entity="">
+
+	<properties race="Britain"/>
+	<properties maxhealth="1000"/>
+	<properties range="500"/>
+	<properties damage="50" armor_slash="18" armor_pierce="18"/>
+	<properties damage_type="pierce"/>
+	<properties HeroSkills="Assault, Leadership, Defensive cry, Concealment, Egoism"/>
+
+	<properties projectile_class="Arrow"/>
+	<properties building_projectile_class="Fire_Arrow"/>
+
+	<properties help="/contents/units/BHero"/>
+
+	<sounds command="data/sound entities/VoiceBHero.xml"/>
+	<sounds attack="UnitArrowFight"/>
+
+	<value1
+		icon="gameres/infobar/common/piercing ico.bmp"
+		script="return .AsUnit.damage+'|'+.AsUnit.range;"
+		help="/contents/stats/attack"
+		rollover="Damage|Range"/>
+
+</class>
+

@@ -1,0 +1,17 @@
+<class id="BVillage" cpp_class="CVXTownHall" parent="BaseVillage"
+	entity="Buildings/BVillage/BVillage.ent.xml"
+>
+	<properties race="Britain"/>
+	<properties foodperpop="45"/>
+	<properties icon="gameres/icons/BVillage.bmp"/>
+	<properties edittree_pos="Structures/Village (Britain)/Village hall"/>
+	<properties help="/contents/buildings/Village"/>
+
+	<method sig="trainIScout"        vs="data/subai/iberian_village_trainIScout.vs"/>
+	
+	<value4
+		icon="gameres/infobar/common/horse ico.bmp"
+		script="return EnvReadInt(.AsBuilding().settlement(), 'EEE_IVillageNumberHorses');"
+		help="/contents/stats/attack"
+		rollover="Horses"/>
+</class>

@@ -1,0 +1,13 @@
+<entity description="Townhall Select" priority="UnitOrder" type="UnitOrder">
+   <files>
+      <sound file="Sounds/selection/Townhall/Townhall_1.wav" frequency="11.11"/>
+      <sound file="Sounds/selection/Townhall/Townhall_2.wav" frequency="11.11"/>
+      <sound file="Sounds/selection/Townhall/Townhall_3.wav" frequency="11.11"/>
+      <sound file="Sounds/selection/Townhall/Townhall_4.wav" frequency="11.11"/>
+      <sound file="Sounds/selection/Townhall/Townhall_5.wav" frequency="11.11"/>
+      <sound file="Sounds/selection/Townhall/Townhall_6.wav" frequency="11.11"/>
+      <sound file="Sounds/selection/Townhall/Townhall_7.wav" frequency="11.11"/>
+      <sound file="Sounds/selection/Townhall/Townhall_8.wav" frequency="11.11"/>
+      <sound file="Sounds/selection/Townhall/Townhall_9.wav" frequency="11.11"/>
+   </files>
+</entity>

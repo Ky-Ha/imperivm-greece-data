@@ -1,0 +1,9 @@
+<entity description="HToxotes Voice" priority="UnitOrder" type="UnitOrder">
+   <files>
+      <sound file="CurrentLang/voices/HToxotes/As you order!.wav" frequency="20"/>
+      <sound file="CurrentLang/voices/HToxotes/Diana, bless my bow!.wav" frequency="20"/>
+      <sound file="CurrentLang/voices/HToxotes/I'm waiting the right moment.wav" frequency="20"/>
+      <sound file="CurrentLang/voices/HToxotes/My arrow won't fail!.wav" frequency="20"/>
+      <sound file="CurrentLang/voices/HToxotes/They'll get what they deserve.wav" frequency="20"/>
+   </files>
+</entity>

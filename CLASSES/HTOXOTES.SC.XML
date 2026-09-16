@@ -1,0 +1,17 @@
+<class id="HToxotes" cpp_class="CVXUnit" parent="Ranged" entity="units/HToxotes/HToxotes.ent.xml">
+
+	<properties race="ImperialRome"/>
+	<properties maxhealth="300"/>
+	<properties damage="20" armor_slash="5" armor_pierce="5"/>
+	<properties speed="100"/>
+	<properties unit_specials="Drain, Active"/>
+
+	<properties projectile_class="Arrow"/>
+
+	<properties icon="gameres/icons/HToxotes.bmp"/>
+	<properties display_name="Toxotes" display_name_plural="Toxotai"/>
+	<properties help="contents/units/HToxotes"/>
+	<properties edittree_pos="Units/Greece/Toxotes"/>
+	<sounds command="data/sound entities/VoiceHToxotes.xml"/>
+
+</class>

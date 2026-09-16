@@ -1,0 +1,20 @@
+<class id="HMyrmidon_Javelin" cpp_class="CVXUnit" parent="Ranged" entity="Units/HMyrmidon/Javelin/HMyrmidon.ent.xml">
+
+	<properties race="ImperialRome"/>
+	<properties maxhealth="330"/>
+	<properties damage="45" armor_slash="18" armor_pierce="18"/>
+	<properties speed="70"/>
+	<properties sight="500" range="400"/>
+	<properties unit_specials="Penetration, Death blow,  Active"/>
+
+	<properties projectile_class="Javelin"/>
+	<properties building_projectile_class="Javelin"/>
+
+	<properties icon="gameres/icons/HMyrmidon.bmp"/>
+	<properties display_name="Myrmidon" display_name_plural="Myrmidons"/>
+	<properties help="contents/units/HMyrmidon"/>
+	<properties edittree_pos="Units/Greece/Myrmidon"/>
+
+	<sounds attack="MyrmidonFight" command="data/sound entities/VoiceHMyrmidon.xml"/>
+
+</class>

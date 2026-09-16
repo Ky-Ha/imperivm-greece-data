@@ -1,0 +1,57 @@
+<entity description="Swords" priority="UnitFight" type="UnitFight">
+   <files>
+      <sound file="Sounds/fight/Sword_attack/Sword_attack_1.wav" frequency="1.5"/>
+      <sound file="Sounds/fight/Sword_attack/Sword_attack_2.wav" frequency="1.5"/>
+      <sound file="Sounds/fight/Sword_attack/Sword_attack_3.wav" frequency="1.5"/>
+      <sound file="Sounds/fight/Sword_attack/Sword_attack_4.wav" frequency="1.5"/>
+      <sound file="Sounds/fight/Sword_attack/Sword_attack_5.wav" frequency="1.5"/>
+      <sound file="Sounds/fight/Sword_attack/Sword_attack_6.wav" frequency="1.5"/>
+      <sound file="Sounds/fight/Sword_attack/Sword_attack_7.wav" frequency="1.5"/>
+      <sound file="Sounds/fight/Sword_attack/Sword_attack_8.wav" frequency="1.5"/>
+      <sound file="Sounds/fight/Sword_attack/Sword_attack_9.wav" frequency="1.5"/>
+      <sound file="Sounds/fight/Sword_attack/Sword_attack_10.wav" frequency="1.5"/>
+      <sound file="Sounds/fight/Sword_attack/Sword_attack_11.wav" frequency="1.5"/>
+      <sound file="Sounds/fight/Sword_attack/Sword_attack_12.wav" frequency="1.5"/>
+      <sound file="Sounds/fight/Sword_attack/Sword_attack_13.wav" frequency="1.5"/>
+      <sound file="Sounds/fight/Sword_attack/Sword_attack_14.wav" frequency="1.5"/>
+      <sound file="Sounds/fight/Sword_attack/Sword_attack_15.wav" frequency="1.5"/>
+	  <sound file="Sounds/fight/Sword_attack/Sword_attack_16.wav" frequency="1.5"/>
+      <sound file="Sounds/fight/Sword_attack/Sword_attack_17.wav" frequency="1.5"/>
+      <sound file="Sounds/fight/Sword_attack/Sword_attack_18.wav" frequency="1.5"/>
+      <sound file="Sounds/fight/Sword_attack/Sword_attack_19.wav" frequency="1.5"/>
+      <sound file="Sounds/fight/Sword_attack/Sword_attack_20.wav" frequency="1.5"/>
+      <sound file="Sounds/fight/Sword_attack/Sword_attack_21.wav" frequency="1.5"/>
+      <sound file="Sounds/fight/Sword_attack/Sword_attack_22.wav" frequency="1.5"/>
+      <sound file="Sounds/fight/Sword_attack/Sword_attack_23.wav" frequency="1.5"/>
+      <sound file="Sounds/fight/Sword_attack/Sword_attack_24.wav" frequency="1.5"/>
+      <sound file="Sounds/fight/Sword_attack/Sword_attack_25.wav" frequency="1.5"/>
+      <sound file="Sounds/fight/Sword_attack/Sword_attack_26.wav" frequency="1.5"/>
+      <sound file="Sounds/fight/Sword_attack/Sword_attack_27.wav" frequency="1.5"/>
+      <sound file="Sounds/fight/Sword_attack/Sword_attack_28.wav" frequency="1.5"/>
+      <sound file="Sounds/fight/Sword_attack/Sword_attack_29.wav" frequency="1.5"/>
+      <sound file="Sounds/fight/Sword_attack/Sword_attack_30.wav" frequency="1.5"/>
+	  <sound file="Sounds/fight/Sword_attack/Sword_attack_31.wav" frequency="1.5"/>
+      <sound file="Sounds/fight/Sword_attack/Sword_attack_32.wav" frequency="1.5"/>
+      <sound file="Sounds/fight/Sword_attack/Sword_attack_33.wav" frequency="1.5"/>
+
+	  
+      <sound file="Sounds/fight/Sword_Attack_voice/Sword_attack_voice_1.wav" frequency="2.9"/>
+      <sound file="Sounds/fight/Sword_Attack_voice/Sword_attack_voice_2.wav" frequency="2.9"/>
+      <sound file="Sounds/fight/Sword_Attack_voice/Sword_attack_voice_3.wav" frequency="2.9"/>
+      <sound file="Sounds/fight/Sword_Attack_voice/Sword_attack_voice_4.wav" frequency="2.9"/>
+      <sound file="Sounds/fight/Sword_Attack_voice/Sword_attack_voice_5.wav" frequency="2.9"/>
+      <sound file="Sounds/fight/Sword_Attack_voice/Sword_attack_voice_6.wav" frequency="2.9"/>
+      <sound file="Sounds/fight/Sword_Attack_voice/Sword_attack_voice_7.wav" frequency="2.9"/>
+      <sound file="Sounds/fight/Sword_Attack_voice/Sword_attack_voice_8.wav" frequency="2.9"/>
+      <sound file="Sounds/fight/Sword_Attack_voice/Sword_attack_voice_9.wav" frequency="2.9"/>
+      <sound file="Sounds/fight/Sword_Attack_voice/Sword_attack_voice_10.wav" frequency="2.9"/>
+	  <sound file="Sounds/fight/Sword_Attack_voice/Sword_attack_voice_11.wav" frequency="2.9"/>
+      <sound file="Sounds/fight/Sword_Attack_voice/Sword_attack_voice_12.wav" frequency="2.9"/>
+      <sound file="Sounds/fight/Sword_Attack_voice/Sword_attack_voice_13.wav" frequency="2.9"/>
+      <sound file="Sounds/fight/Sword_Attack_voice/Sword_attack_voice_14.wav" frequency="2.9"/>
+      <sound file="Sounds/fight/Sword_Attack_voice/Sword_attack_voice_15.wav" frequency="2.9"/>
+      <sound file="Sounds/fight/Sword_Attack_voice/Sword_attack_voice_16.wav" frequency="2.9"/>
+      <sound file="Sounds/fight/Sword_Attack_voice/Sword_attack_voice_17.wav" frequency="2.9"/>
+	  
+   </files>
+</entity>

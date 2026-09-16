@@ -1,0 +1,15 @@
+<class id="RExtrordina" altid="RSpearman" cpp_class="CVXUnit" parent="Melee" entity="Units/RExtrordina/RExtrordina.ent.xml">
+
+	<properties race="RepublicanRome"/>
+	<properties maxhealth="600"/>
+	<properties damage="35" armor_slash="20" armor_pierce="20"/>
+	<properties speed="80"/>
+	<properties unit_specials="Defensive tactics, Toughness, Active"/>
+
+	<properties icon="gameres/icons/RExtrordina.bmp"/>
+	<properties display_name="Extraordinarius" display_name_plural="Extraordinarii"/>
+	<properties help="contents/units/RExtrordinario"/>
+	<properties edittree_pos="Units/Roman/Extraordinarius"/>
+	<sounds attack="UnitPikeFight" command="data/sound entities/VoiceRPrinciple.xml"/>
+
+</class>

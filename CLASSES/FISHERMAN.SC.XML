@@ -1,0 +1,13 @@
+<class id="Fisherman" cpp_class="CVXUnit" parent="Peasant" entity="units/Fisherman/Fisherman.ent.xml">
+
+	<properties icon="gameres/icons/Fisherman.bmp"/>
+	<properties edittree_pos="Units/Others/Fisherman"/>
+	<properties display_name="Fisherman" display_name_plural="Fishermen"/>
+	
+	<method sig="enter"         vs="data/subai/fishermanenter.vs"/>
+	<method sig="enteralone"    vs="data/subai/fishermanenter.vs"/>
+	<method sig="unequip"       vs="data/subai/fisherman_convert.vs"/>	
+
+	<sounds command="data/sound entities/VoiceFisherman.xml" die="data/sound entities/UnitDeath.xml"/>
+
+</class>

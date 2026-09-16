@@ -1,0 +1,8 @@
+<class id="Gannicus" cpp_class="CVXHero" parent="HeroMounted" entity="Units/GSwordsman/GSwordsman.ent.xml">
+
+	<properties display_name="Gannicus" display_name_plural="Heroes"/>
+	<properties icon="gameres/icons/Gannicus.bmp"/>
+	<properties edittree_pos="Units/Others/Gannicus"/>
+	
+	<sounds attack="UnitPikeFight" command="data/sound entities/VoiceRGladiator.xml"/>
+</class>

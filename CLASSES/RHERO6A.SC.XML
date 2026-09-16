@@ -1,0 +1,8 @@
+<class id="RHero6a" cpp_class="CVXHero" parent="AncientRomanHero" entity="Units/Caesar/Caesar.ent.xml">
+
+	<properties display_name="Julius" display_name_plural="Heroes"/>
+	<properties icon="gameres/icons/Caesar.bmp"/>
+
+	<sounds command="data/sound entities/VoiceRImperialHero.xml"/>
+
+</class>

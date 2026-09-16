@@ -1,0 +1,8 @@
+<class id="Crixus" cpp_class="CVXHero" parent="HeroMounted" entity="Units/RGladiator/RGladiator.ent.xml">
+
+	<properties display_name="Crixus" display_name_plural="Heroes"/>
+	<properties icon="gameres/icons/Crixus.bmp"/>
+	<properties edittree_pos="Units/Others/Crixus"/>
+	
+	<sounds attack="UnitPikeFight" command="data/sound entities/VoiceRGladiator.xml"/>
+</class>

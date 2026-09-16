@@ -1,0 +1,9 @@
+<entity description="HCataphract Voice" priority="UnitOrder" type="UnitOrder">
+   <files>
+      <sound file="CurrentLang/voices/HCataphract/1.wav" frequency="20"/>
+      <sound file="CurrentLang/voices/HCataphract/2.wav" frequency="20"/>
+      <sound file="CurrentLang/voices/HCataphract/3.wav" frequency="20"/>
+      <sound file="CurrentLang/voices/HCataphract/4.wav" frequency="20"/>
+      <sound file="CurrentLang/voices/HCataphract/5.wav" frequency="20"/>
+   </files>
+</entity>

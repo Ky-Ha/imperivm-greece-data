@@ -1,0 +1,20 @@
+<class id="HChariot" cpp_class="CVXUnit" parent="Melee" entity="units/HChariot/HChariot.ent.xml">
+
+	<properties race="ImperialRome"/>
+	<properties maxhealth="1000"/>
+	<properties damage="80" armor_slash="20" armor_pierce="20"/>
+	<properties speed="120"/>
+	<properties unit_specials="Penetration, Active, Charge, Trample"/>
+	<properties radius="50" selection_radius="50"/>
+	<properties max_food="40"/>
+
+	<properties icon="gameres/icons/HChariot.bmp"/>
+	<properties display_name="Chariot" display_name_plural="Chariots"/>
+	<properties help="contents/units/HChariot"/>
+	<properties edittree_pos="Units/Greece/Chariot"/>
+	
+	<behavior script="data/subai/CWarElephant_Trample.vs"/>
+	
+	<sounds command="data/sound entities/VoiceHChariot.xml"/>
+	
+</class>

@@ -1,0 +1,117 @@
+<commands>
+
+<!-- CTENT -->
+<cmd name="createfoodmule1" priority="2"
+	method="createfoodmulesmall"
+	groupverifier="data/subai/create_food_mule_verify.vs"
+	mod="yes"
+	button="actions/Create Mule Food.bmp"
+	queueicon="gameres/icons/wagon.bmp"
+	transpicon="1"
+	cursor=""
+	key="f"
+	immediate="yes"
+	rollover="Load a caravan with 250 food">
+	<src obj="CTent"/>
+</cmd>
+
+<cmd name="createfoodmule2" priority="2"
+	method="createfoodmulebig"
+	groupverifier="data/subai/create_food_mule_verify.vs"
+	mod="no"
+	button="actions/Create Mule Food.bmp"
+	queueicon="gameres/icons/wagon.bmp"
+	transpicon="1"
+	cursor=""
+	key="f"
+	immediate="yes"
+	rollover="Load a caravan with 1000 food">
+	<src obj="CTent"/>
+</cmd>
+
+<cmd name="StartCNumidianRiderTrain" priority="3"
+	method="teutonProduction"
+	button="actions/Hire CNumidianRider.bmp"
+    groupverifier="data/subai/start_crider_verify.vs"
+	transpicon="1"
+	cursor=""
+	key="r"
+	immediate="yes"
+	rollover="Train Numidian Riders"
+	description="Start automatically Numidian Riders Production"
+	param="TRider">
+	<src obj="CTent"/>
+</cmd>
+
+<cmd name="StopCNumidianRiderTrain" priority="3"
+	method="teutonProduction"
+	button="actions/Stop_CNumidianRider.bmp"
+    groupverifier="data/subai/stop_crider_verify.vs"
+	transpicon="1"
+	cursor=""
+	key ="s"
+	immediate="yes"
+	rollover="Stop Train Numidian Riders"
+	description="Stop automatically Numidian Riders Production"
+	param="Nothing">
+	<src obj="CTent"/>
+</cmd>
+
+<cmd name="StartCHorsemanTrain" priority="4"
+	method="teutonProduction"
+	button="actions/Hire CHorseman.bmp"
+    groupverifier="data/subai/start_chorseman_verify.vs"
+	transpicon="1"
+	cursor=""
+	key="a"
+	immediate="yes"
+	rollover="Train Numidian Horsemen"
+	description="Start automatically Numidian Horsemen Production"
+	param="TArcher">
+	<src obj="CTent"/>
+</cmd>
+
+<cmd name="StopCHorsemanTrain" priority="4"
+	method="teutonProduction"
+	button="actions/Stop_CHorseman.bmp"
+    groupverifier="data/subai/stop_chorseman_verify.vs"
+	transpicon="1"
+	cursor=""
+	key ="s"
+	immediate="yes"
+	rollover="Stop Train Numidian Horsemen"
+	description="Stop automatically Numidian Horsemen Production"
+	param="Nothing">
+	<src obj="CTent"/>
+</cmd>
+
+<cmd name="StartCCamelRiderTrain" priority="5"
+	method="teutonProduction"
+	button="actions/Hire CCamelRider.bmp"
+    groupverifier="data/subai/start_ccamel_verify.vs"
+	transpicon="1"
+	cursor=""
+	key="t"
+	immediate="yes"
+	rollover="Train Camel Riders"
+	description="Start automatically Camel Riders Production"
+	param="TWolf">
+	<src obj="CTent"/>
+</cmd>
+
+<cmd name="StopCCamelRiderTrain" priority="5"
+	method="teutonProduction"
+	button="actions/Stop_CCamelRider.bmp"
+    groupverifier="data/subai/stop_ccamel_verify.vs"
+	transpicon="1"
+	cursor=""
+	key ="s"
+	immediate="yes"
+	rollover="Stop Train Camel Riders"
+	description="Stop automatically Camel Riders Production"
+	param="Nothing">
+	<src obj="CTent"/>
+</cmd>
+
+
+</commands>

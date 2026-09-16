@@ -1,0 +1,6 @@
+<entity description="Slingstone" priority="UnitFight" type="UnitFight">
+   <files>
+      <sound file="Sounds/fight/SLINGSTONE_ATTACK/SLINGSTONE_ATTACK_1.wav" frequency="50"/>
+      <sound file="Sounds/fight/SLINGSTONE_ATTACK/SLINGSTONE_ATTACK_2.WAV" frequency="50"/>
+   </files>
+</entity>

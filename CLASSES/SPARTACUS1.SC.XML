@@ -1,0 +1,8 @@
+<class id="Spartacus1" cpp_class="CVXHero" parent="HeroMounted" entity="Units/RGladiator/RGladiator.ent.xml">
+
+	<properties display_name="Spartacus" display_name_plural="Heroes"/>
+	<properties icon="gameres/icons/Spartacus.bmp"/>
+	<properties edittree_pos="Units/Others/Spartacus 1"/>
+	
+	<sounds attack="UnitPikeFight" command="data/sound entities/VoiceRGladiator.xml"/>
+</class>

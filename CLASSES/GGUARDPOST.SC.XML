@@ -1,0 +1,35 @@
+<class id="GGuardPost" cpp_class="CVXOutpost" parent="Outpost"
+  entity        = "Buildings/GGuardPost/GGuardPost_AS.ent.xml"
+  entity_winter = "Buildings/GGuardPost/GGuardPost_W.ent.xml"
+>
+	<properties race="Gaul"/>
+	<properties maxhealth="10000"/>
+	<properties display_name="Guard Post"/>
+	<properties icon="gameres/icons/GGuardPost.bmp"/>
+	<properties edittree_pos="Structures/Outposts/Guard Post"/>
+	<properties help="/contents/buildings/GGuardPost"/>
+	<properties auto_repair="no"/>
+
+	<properties
+		sight="2000"
+		range="1000"
+		settlement_food="200"
+		settlement_gold="50"
+		max_units="50"
+	    defender_cls_1  = "GSpearman"	
+	    defenders_max_1 = "15"
+	    defenders_out_1 = "10"
+	    start_level_1   = "8"
+	    end_level_1     = "18"   
+	    defender_cls_2  = "GArcher"	
+	    defenders_max_2 = "10"
+	    defenders_out_2 = "8"
+	    start_level_2   = "8"
+	    end_level_2     = "18"  
+	/>
+	
+	<behavior script="data/subai/settlement_behavior_horses.vs"/>
+	<behavior script="data/subai/GGuardPost_Sentries.vs"/>
+	<method sig="repair" vs="data/subai/building_repair.vs"/>
+	<method sig="routpost_interest" vs="data/subai/routpost_interest.vs"/>
+</class>
