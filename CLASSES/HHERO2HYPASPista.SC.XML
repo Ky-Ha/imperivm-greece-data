@@ -1,0 +1,6 @@
+<class id="HHero2Hypaspista" cpp_class="CVXHero" parent="HHypaspista" entity="Units/HHero2/HHero2.ent.xml">
+	<properties icon="gameres/icons/HHERO2.bmp"/>
+	<properties display_name="Alexandros" display_name_plural="Alexandross"/>
+	<properties help="contents/units/HHypaspista"/>
+	<properties edittree_pos="Units/Greece/Hero 2"/>
+</class>

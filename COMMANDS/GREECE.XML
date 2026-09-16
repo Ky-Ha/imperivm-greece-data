@@ -98,6 +98,63 @@
 	<src obj="HBarracks"/>
 </cmd>
 
+<cmd name="trainHHero1Hypaspista" priority="7"
+	button="actions/hire heroH.bmp"
+	queueicon="gameres/icons/HHero1.bmp"
+	groupverifier="data/subai/verify_hero_train.vs"
+	onaddremovescript="data/subai/trainex_onaddremove.vs"
+	transpicon="1"
+	traincommand="yes"
+	help="/contents/units/HHypaspista"
+	costgold = "300"
+	costfood = "0"
+	costpop = "1"
+	execdelay = "18000"
+	rollover="Recruit Hector"
+	method="trainex"
+	param="1, 1, HHero1Hypaspista, HHero1Hypaspista, ,"
+	sclass="HHero1Hypaspista">
+	<src obj="HBarracks"/>
+</cmd>
+
+<cmd name="trainHHero2Hypaspista" priority="7"
+	button="actions/hire heroH.bmp"
+	queueicon="gameres/icons/HHERO2.bmp"
+	groupverifier="data/subai/verify_hero_train.vs"
+	onaddremovescript="data/subai/trainex_onaddremove.vs"
+	transpicon="1"
+	traincommand="yes"
+	help="/contents/units/HHypaspista"
+	costgold = "300"
+	costfood = "0"
+	costpop = "1"
+	execdelay = "18000"
+	rollover="Recruit Alexandros"
+	method="trainex"
+	param="1, 1, HHero2Hypaspista, HHero2Hypaspista, ,"
+	sclass="HHero2Hypaspista">
+	<src obj="HBarracks"/>
+</cmd>
+
+<cmd name="trainHHero3Hypaspista" priority="7"
+	button="actions/hire heroH.bmp"
+	queueicon="gameres/icons/HHERO3.bmp"
+	groupverifier="data/subai/verify_hero_train.vs"
+	onaddremovescript="data/subai/trainex_onaddremove.vs"
+	transpicon="1"
+	traincommand="yes"
+	help="/contents/units/HHypaspista"
+	costgold = "300"
+	costfood = "0"
+	costpop = "1"
+	execdelay = "18000"
+	rollover="Recruit Leonte"
+	method="trainex"
+	param="1, 1, HHero3Hypaspista, HHero3Hypaspista, ,"
+	sclass="HHero3Hypaspista">
+	<src obj="HBarracks"/>
+</cmd>
+
 <!-- Se vuoi rendere i Carri illimitati cambiare in groupverifier="data/subai/barrack_train_verify.vs" 
      method="train" 
      param="HChariot, Greek Chariot Wheels" e togliere la riga onaddremovescript-->
