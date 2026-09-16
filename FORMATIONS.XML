@@ -13,22 +13,22 @@
 
 		<Class Name="Unit" FrontLine="1"/>
 		<Class Name="Peasant" CentralBlock="1"/>
+		<Class Name="Horse" CentralBlock="1"/>
 	</FormationClass>
 
 	<FormationClass Name="Line"
 		Description="The line formation places all warriors at the front line. When standing on the ground all warriors have 50% attack bonus due to the clear sight they have"
-		Width="6"
-		Height="1"
-		BonusDamage="2"
-		BonusArmor="2"
+		Width="7"
+		Height="4"
 		BonusRange="30"
-		OffsetFrontLineByY="50"
+		BonusArmor="4"
+		OffsetFrontLineByY="40"
 		OffsetWingsByX="0"
 		OffsetWingsByY="0">
 
 		<Class Name="Unit" FrontLine="1"/>
-		<Class Name="BaseMage" CentralBlock="1"/>
 		<Class Name="Peasant" CentralBlock="1"/>
+		<Class Name="Horse" CentralBlock="1"/>
 	</FormationClass>
 
 	<FormationClass Name="Block"

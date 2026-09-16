@@ -5,7 +5,7 @@
 	<properties damage="40" armor_slash="40" armor_pierce="40"/>
 	<properties speed="90"/>
 	<properties unit_specials="Triple strike, Triumph, Active, Life steal"/>
-	<properties HeroSkills="Team attack, Team defense, Assault"/>
+	<properties HeroSkills="Team attack, Team defense, Quick March"/>
 	<properties formation_priority="1200"/>
 
 	<properties icon="gameres/icons/HHypaspista.bmp"/>

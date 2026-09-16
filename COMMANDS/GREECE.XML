@@ -176,7 +176,7 @@
 	execdelay = "20000"
 	rollover="Equip Chariot"
 	method="trainex"
-	param="1, 12, HChariot, HChariot, Greek Chariot Wheels, blacksmith"
+	param="1, 8, HChariot, HChariot, Greek Chariot Wheels, blacksmith"
 	sclass="HChariot">
 	<src obj="HBarracks"/>
 </cmd>
@@ -313,7 +313,7 @@
 	rollover="Olympic Games"
 	method="research"
 	researchcommand="yes"
-	param="NameSet, Olympic Games, default, SetsSet, levels/HMyrmidon_Javelin, 18, SetsSet, levels/HChariot, 18, SetsSet, levels/Hero, 18">
+	param="NameSet, Olympic Games, default, SetsSet, levels/HMyrmidon_Javelin, 24, SetsSet, levels/HCataphract, 12, SetsSet, levels/HChariot, 36, SetsSet, levels/Hero, 20">
 	<src obj="HGymnasium"/>
 </cmd>
 

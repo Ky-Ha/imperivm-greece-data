@@ -1,4 +1,4 @@
-<class id="HChariot" cpp_class="CVXUnit" parent="Melee" entity="units/HChariot/HChariot.ent.xml">
+<class id="HChariot" cpp_class="CVXUnit" parent="Horse" entity="units/HChariot/HChariot.ent.xml">
 
 	<properties race="ImperialRome"/>
 	<properties maxhealth="1000"/>
