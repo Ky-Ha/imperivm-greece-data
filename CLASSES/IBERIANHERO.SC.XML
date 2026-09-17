@@ -1,10 +1,10 @@
 <class id="IberianHero" cpp_class="CVXHero" parent="HeroMounted" entity="">
 
-	<properties maxhealth="1500"/>
-	<properties damage="150" armor_slash="30" armor_pierce="40"/>
-	<properties speed="120"/>
-	<properties unit_specials="Trample, Penetration, Active, Life steal, Deathblow"/>
-	<properties HeroSkills="Quick March, Team attack, Team defense, Concealment, Euphoria"/>
+	<properties maxhealth="1000"/>
+	<properties damage="40" armor_slash="16" armor_pierce="16"/>
+	<properties race="Iberia"/>
+	<properties HeroSkills="Healing, Administration, Team defense, Epic endurance, Euphoria"/>
+	<properties help="/contents/units/IHero"/>
 
 	<sounds command="data/sound entities/VoiceIHero.xml"/>
 
